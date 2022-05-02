@@ -1,4 +1,4 @@
-name: "Terraform-Apply-Infra-Release"
+name: "Terraform-Applying Infrastructure"
 
 on:
   push:
