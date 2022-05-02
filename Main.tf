@@ -19,7 +19,7 @@ provider "aws" {
   region = "us-east-1"
 }
 
-loacls {
+locals {
     project_name = "tf-iac-aws"
 }
 
