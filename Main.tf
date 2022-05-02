@@ -14,9 +14,8 @@ terraform {
 }
 
 provider "aws" {
-  # Configuration options
   profile = "default"
-  region = "us-east-1"
+  region  = "us-east-1"
 }
 
 locals {
