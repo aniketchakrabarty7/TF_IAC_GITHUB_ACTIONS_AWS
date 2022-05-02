@@ -23,7 +23,7 @@ locals {
     project_name = "tf-iac-aws"
 }
 
-recource "aws_instance" "tf-iac-test-server" {
+resource "aws_instance" "tf-iac-test-server" {
     ami = "ami-0c02fb55956c7d316"
     instance_type = "t2.micro"
     
