@@ -28,7 +28,7 @@ resource "aws_instance" "tf-iac-test-server" {
     instance_type = "t2.micro"
     
     tags = {
-        Name = "tesst-server-${local.project_name}"
+        Name = "test-server-${local.project_name}"
     }
 }
 
